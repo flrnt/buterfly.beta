@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Lato', sans-serif; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto; }
+
+#banner {
+  background: url(../img/banner_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding: 12em 0; }
+  #banner #banner_content_wrapper {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #banner #content {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto; }
+    #banner #content .title {
+      display: inline;
+      font-size: 4em;
+      color: #FFFFFF; }
+      #banner #content .title span {
+        font-size: .45em;
+        color: #006B6E; }
+    #banner #content .subtitle {
+      color: #FFFFFF;
+      font-size: 1.5em;
+      margin-top: 0;
+      line-height: 2; }
+    #banner #content .cta {
+      border: none;
+      outline: none;
+      padding: 1em 2em;
+      border-radius: 2em;
+      background: #D2A856;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: .9em;
+      text-decoration: none;
+      margin-top: 3em; }
+      #banner #content .cta:hover {
+        background: #d7b26a; }
+
+#features {
+  padding: 3em 0; }
+  #features h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.75em; }
+  #features .features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+
+#beta {
+  padding: 5em 0;
+  text-align: center;
+  background: #006B6E; }
+  #beta .beta_inner {
+    width: 600px;
+    margin: 0 auto; }
+  #beta h2 {
+    font-size: 1.75em;
+    color: #FFFFFF; }
+  #beta .sign_up_form input[type="email"] {
+    width: 48%;
+    margin: 0 .5%;
+    height: 3.25em;
+    border: none;
+    outline: none;
+    border-radius: .3em;
+    background: #404043;
+    padding: .5em 1.25em;
+    font-size: .8em;
+    color: #FFFFFF; }
+  #beta .sign_up_form .button {
+    border: none;
+    outline: none;
+    padding: .85em 2em;
+    border-radius: .2em;
+    background: #D2A856;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: .9em;
+    margin-top: 3em; }
+    #beta .sign_up_form .button:hover {
+      background: #d7b26a; }
+
+#main_footer {
+  padding: .8em 0;
+  text-align: center; }
+  #main_footer .logo {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700;
+    margin-top: 0; }
+  #main_footer .copyright {
+    color: #006B6E;
+    font-size: .75em;
+    margin: 0; }
+  #main_footer .links {
+    display: inline;
+    color: #006B6E; }
+    #main_footer .links span {
+      font-size: .5em; }
+    #main_footer .links a {
+      color: #006B6E;
+      font-size: .75em;
+      text-decoration: none;
+      margin: 0 .5em; }
+      #main_footer .links a:hover {
+        color: #D2A856; }
